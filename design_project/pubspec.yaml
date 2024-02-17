@@ -1,0 +1,289 @@
+name: design_project
+description: A new Flutter project.
+
+# The following line prevents the package from being accidentally published to
+# pub.dev using `flutter pub publish`. This is preferred for private packages.
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+
+# The following defines the version and build number for your application.
+# A version number is three numbers separated by dots, like 1.2.43
+# followed by an optional build number separated by a +.
+# Both the version and the builder number may be overridden in flutter
+# build by specifying --build-name and --build-number, respectively.
+# In Android, build-name is used as versionName while build-number used as versionCode.
+# Read more about Android versioning at https://developer.android.com/studio/publish/versioning
+# In iOS, build-name is used as CFBundleShortVersionString while build-number used as CFBundleVersion.
+# Read more about iOS versioning at
+# https://developer.apple.com/library/archive/documentation/General/Reference/InfoPlistKeyReference/Articles/CoreFoundationKeys.html
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.17.6 <3.0.0"
+
+# Dependencies specify other packages that your package needs in order to work.
+# To automatically upgrade your package dependencies to the latest versions
+# consider running `flutter pub upgrade --major-versions`. Alternatively,
+# dependencies can be manually updated by changing the version numbers below to
+# the latest version available on pub.dev. To see which dependencies have newer
+# versions available, run `flutter pub outdated`.
+dependencies:
+  flutter:
+    sdk: flutter
+
+
+  # The following adds the Cupertino Icons font to your application.
+  # Use with the CupertinoIcons class for iOS style icons.
+  cupertino_icons: ^1.0.2
+  connectivity: ^3.0.6
+  dio: ^4.0.0
+  dio_http_cache:
+  http: ^0.13.4
+  google_fonts: ^3.0.1
+  validators: ^3.0.0
+  fluttertoast: ^8.0.9
+  firebase_messaging: ^13.0.0
+  firebase_core: ^1.17.0
+  flutter_screenutil: ^5.5.3+2
+  hexcolor: ^2.0.6
+  flutter_svg: ^1.1.3
+  lottie: ^1.2.1
+  intl: ^0.17.0
+  smooth_page_indicator: ^1.0.0+2
+  animated_text_kit: ^4.2.2
+  google_maps_flutter: ^2.1.12
+  get_storage: ^2.0.3
+  permission_handler: ^6.0.1+1
+  google_maps_place_picker: ^2.1.0-nullsafety.3
+  geocoding: ^2.0.4
+  image_picker: ^0.8.5+3
+  page_view_indicators: ^2.0.0
+  internet_connection_checker: ^0.0.1+4
+  # connectivity_plus: ^2.3.6+1
+  country_picker: ^2.0.16
+  flutter_facebook_auth: ^4.3.1
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  # The "flutter_lints" package below contains a set of recommended lints to
+  # encourage good coding practices. The lint set provided by the package is
+  # activated in the `analysis_options.yaml` file located at the root of your
+  # package. See that file for information about deactivating specific lint
+  # rules and activating additional ones.
+  flutter_lints: ^2.0.0
+  flutter_native_splash: ^2.2.8
+  # flutter_launcher_icons: ^0.10.0
+
+flutter_native_splash:
+  image: assests/splash.png
+  color: "#ffffff"
+
+flutter_icons:
+  image_path: "assests/app_icon.png"
+  android: true
+  ios: true
+  remove_alpha_ios: true
+# For information on the  generic Dart part of this file, see the
+# following page: https://dart.dev/tools/pub/pubspec
+
+# The following section is specific to Flutter packages.
+flutter:
+
+  # The following line ensures that the Material Icons font is
+  # included with your application, so that you can use the icons in
+  # the material Icons class.
+  uses-material-design: true
+
+  # To add assests to your application, add an assests section, like this:
+  assets:
+    - assests/
+    - assests/json/
+    - assests/images/usericon.svg
+    - assests/images/user-icon.jpg
+    - assests/images/lock.svg
+    - assests/images/menu.svg
+    - assests/images/bank-details.svg
+    - assests/images/cross.svg
+    - assests/images/edit.svg
+    - assests/images/link.svg
+    - assests/images/mail.svg
+    - assests/images/personal_identyfication.svg
+    - assests/images/phone.svg
+    - assests/images/rating.svg
+    - assests/images/arrow.svg
+    - assests/images/link_3.svg
+    - assests/images/mail_2.svg
+    - assests/images/error_2.png
+    - assests/images/link.png
+    - assests/images/search-icon.svg
+    - assests/images/bank-details1.svg
+    - assests/images/bank-details1.png
+    - assests/images/bank-details3.png
+    - assests/images/calendar.png
+    - assests/images/refer-earn.svg
+    - assests/images/favourite.svg
+    - assests/images/user_2.svg
+    - assests/images/link_02.svg
+    - assests/images/link_03_01.svg
+    - assests/images/refer-and-earn-1.png
+    - assests/images/refered2.png
+    - assests/images/link3.png
+    - assests/images/close.png
+    - assests/images/car.png
+    - assests/images/bell.png
+    - assests/images/help.png
+    - assests/images/link_1.png
+    - assests/images/link_2.png
+    - assests/images/personal-identyfication.png
+    - assests/images/personal-identyfication3.png
+    - assests/images/facebook3.png
+    - assests/images/rating.png
+    - assests/images/mail_black.png
+    - assests/images/mail_white.png
+    - assests/images/back.png
+    - assests/images/copy.png
+    - assests/images/next.png
+    - assests/images/calender.png
+    - assests/images/download.png
+    - assests/images/close_2.png
+    - assests/images/search_2.png
+    - assests/images/dropdown_arrow.png
+    - assests/images/hatchback2.png
+    - assests/images/mpv.png
+    - assests/images/mpv2.png
+    - assests/images/pickup2.png
+    - assests/images/sedan2.png
+    - assests/images/suv2.png
+    - assests/images/sport3.png
+    - assests/images/sport1.png
+    - assests/images/slider.png
+    - assests/images/light.png
+    - assests/images/car_price.png
+    - assests/images/back_arrow.png
+    - assests/images/car_estimate.png
+    - assests/images/map_location.png
+    - assests/images/search_icon_34.png
+    - assests/images/send.png
+    - assests/
+    - assests/images/
+    - assests/images/usericon.svg
+    - assests/images/user-icon.jpg
+    - assests/images/lock.svg
+    - assests/images/menu.svg
+    - assests/images/bank-details.svg
+    - assests/images/cross.svg
+    - assests/images/edit.svg
+    - assests/images/link.svg
+    - assests/images/mail.svg
+    - assests/images/personal_identyfication.svg
+    - assests/images/phone.svg
+    - assests/images/rating.svg
+    - assests/images/arrow.svg
+    - assests/images/link_3.svg
+    - assests/images/mail_2.svg
+    - assests/images/error_2.png
+    - assests/images/link.png
+    - assests/images/search-icon.svg
+    - assests/images/bank-details1.svg
+    - assests/images/bank-details1.png
+    - assests/images/bank-details3.png
+    - assests/images/calendar.png
+    - assests/images/refer-earn.svg
+    - assests/images/favourite.svg
+    - assests/images/user_2.svg
+    - assests/images/link_02.svg
+    - assests/images/link_03_01.svg
+    - assests/images/refer-and-earn-1.png
+    - assests/images/refered2.png
+    - assests/images/link3.png
+    - assests/images/close.png
+    - assests/images/car.png
+    - assests/images/bell.png
+    - assests/images/help.png
+    - assests/images/link_1.png
+    - assests/images/link_2.png
+    - assests/images/personal-identyfication.png
+    - assests/images/personal-identyfication3.png
+    - assests/images/facebook3.png
+    - assests/images/rating.png
+    - assests/images/mail_black.png
+    - assests/images/mail_white.png
+    - assests/images/back.png
+    - assests/images/copy.png
+    - assests/images/next.png
+    - assests/images/calender.png
+    - assests/images/download.png
+    - assests/images/close_2.png
+    - assests/images/search_2.png
+    - assests/images/dropdown_arrow.png
+    - assests/images/hatchback2.png
+    - assests/images/mpv.png
+    - assests/images/mpv2.png
+    - assests/images/pickup2.png
+    - assests/images/sedan2.png
+    - assests/images/suv2.png
+    - assests/images/sport3.png
+    - assests/images/sport1.png
+    - assests/images/slider.png
+    - assests/images/light.png
+    - assests/images/car_price.png
+    - assests/images/back_arrow.png
+    - assests/images/car_estimate.png
+    - assests/images/map_location.png
+    - assests/images/search_icon_34.png
+    - assests/images/send.png
+    - assests/images/edit.png
+    - assests/images/mail.png
+    - assests/images/mail_2.png
+    - assests/images/search-icon.png
+    - assests/images/online_medical_store.jpeg
+    - assests/images/phone.png
+    - assests/images/user_2.png
+    - assests/images/image.jpg
+    - assests/images/marker.png
+    - assests/images/plus.png
+    - assests/images/password.png
+    - assests/images/image1.jpg
+    - assests/images/image2.jpg
+    - assests/images/image3.jpg
+    - assests/images/car.jpeg
+    - assests/images/car1.jpeg
+    - assests/images/car2.jpeg
+    - assests/images/car3.jpeg
+    - assests/images/car4.jpeg
+    - assests/images/message.png
+    - assests/images/service_fee.png
+    - assests/images/info.png
+    - assests/images/charge.png
+    - assests/images/checkout.png
+
+
+
+  #   - images/a_dot_ham.jpeg
+
+  # An image asset can refer to one or more resolution-specific "variants", see
+  # https://flutter.dev/assets-and-images/#resolution-aware
+
+  # For details regarding adding assests from package dependencies, see
+  # https://flutter.dev/assets-and-images/#from-packages
+
+  # To add custom fonts to your application, add a fonts section here,
+  # in this "flutter" section. Each entry in this list should have a
+  # "family" key with the font family name, and a "fonts" key with a
+  # list giving the asset and other descriptors for the font. For
+  # example:
+  # fonts:
+  #   - family: Schyler
+  #     fonts:
+  #       - asset: fonts/Schyler-Regular.ttf
+  #       - asset: fonts/Schyler-Italic.ttf
+  #         style: italic
+  #   - family: Trajan Pro
+  #     fonts:
+  #       - asset: fonts/TrajanPro.ttf
+  #       - asset: fonts/TrajanPro_Bold.ttf
+  #         weight: 700
+  #
+  # For details regarding fonts from package dependencies,
+  # see https://flutter.dev/custom-fonts/#from-packages

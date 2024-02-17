@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CLIENT_ID</key>
+	<string>209563871520-cm8i8vti9scsib3r9921rioqfu0lji8e.apps.googleusercontent.com</string>
+	<key>REVERSED_CLIENT_ID</key>
+	<string>com.googleusercontent.apps.209563871520-cm8i8vti9scsib3r9921rioqfu0lji8e</string>
+	<key>ANDROID_CLIENT_ID</key>
+	<string>209563871520-rog24h1aa1aeg5e1lsokf651bbi6btcb.apps.googleusercontent.com</string>
+	<key>API_KEY</key>
+	<string>AIzaSyBVjpToCCmtKvIatsdPm49JA7_o3cibayg</string>
+	<key>GCM_SENDER_ID</key>
+	<string>209563871520</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>com.example.designProject</string>
+	<key>PROJECT_ID</key>
+	<string>car-rental-system-359505</string>
+	<key>STORAGE_BUCKET</key>
+	<string>car-rental-system-359505.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<false></false>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false></false>
+	<key>IS_APPINVITE_ENABLED</key>
+	<true></true>
+	<key>IS_GCM_ENABLED</key>
+	<true></true>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true></true>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:209563871520:ios:580d85fb7738f8482dcf45</string>
+</dict>
+</plist>
